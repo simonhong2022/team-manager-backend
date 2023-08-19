@@ -1,8 +1,8 @@
 ## default connection pool
 debug: true
 spring:
-  config:
-    import: env.properties
+  ##config:
+    ##import: env.properties
   sql:
     init:
       platform: mongodb
