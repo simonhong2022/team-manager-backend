@@ -1,6 +1,8 @@
 ## default connection pool
 debug: true
 spring:
+  config:
+    import: env.properties
   sql:
     init:
       platform: mongodb
@@ -8,19 +10,6 @@ spring:
   output:
     ansi:
       enabled: always
-  datasource:
-    url: jdbc:postgresql://mouse.db.elephantsql.com:5432/gmkudcvs
-    username: gmkudcvs
-    password: rWpiRTrHmq39bNjrLQ5A-LNq8mVze20w
-    hikari:
-      connectionTimeout: 20000
-      maximumPoolSize: 5
-  jpa:
-    show-sql: true
-    hibernate:
-      ddl-auto: create
-    defer-datasource-initialization: true
-    database-platform: org.hibernate.dialect.PostgreSQLDialect
   data:
     mongodb:
       uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO_DATABASE}
