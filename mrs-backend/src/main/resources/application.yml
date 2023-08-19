@@ -15,7 +15,7 @@ spring:
 
   data:
     mongodb:
-      uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO_DATABASE}
+      uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}
       database: ${MONGO_DATABASE}
 
 logging:
