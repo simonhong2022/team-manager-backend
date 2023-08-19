@@ -1,4 +1,6 @@
 ## default connection pool
+server:
+  port: 8080
 debug: true
 spring:
   config:
@@ -10,6 +12,7 @@ spring:
   output:
     ansi:
       enabled: always
+
   data:
     mongodb:
       uri: mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_CLUSTER}/${MONGO_DATABASE}
