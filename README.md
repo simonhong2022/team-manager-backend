@@ -13,4 +13,4 @@ The project is a full-stack team management application. The backend connects to
 
 ### Technology
 
-The backend was built in Java using Maven and Spring Boot, then deployed through Azure, and the database was made with MongoDB.
+The backend was built in Java using Maven and Spring Boot, then deployed through Railway, and the database was made with MongoDB.
