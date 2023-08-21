@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/employees")
-@CrossOrigin(origins = {"https://teammanager.vercel.app", "https://team-manager-frontend-simonhong2022.vercel.app", "http://localhost:3000"})
+@CrossOrigin(origins = {"https://teammanager.vercel.app", "https://team-manager-frontend-108krbzlh-simonhong2022.vercel.app", "http://localhost:3000"})
 public class EmployeeController {
 
     private final EmployeeService empService;
