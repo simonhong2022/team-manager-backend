@@ -9,6 +9,7 @@ import java.security.SecureRandom;
 
 @RestController
 @RequestMapping(path = "/api/login")
+@CrossOrigin(origins = {"https://teammanager.vercel.app", "http://localhost:3000"})
 public class UserController {
     private final BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 

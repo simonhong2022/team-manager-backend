@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/employees")
+@CrossOrigin(origins = {"https://teammanager.vercel.app", "http://localhost:3000"})
 public class EmployeeController {
 
     private final EmployeeService empService;
