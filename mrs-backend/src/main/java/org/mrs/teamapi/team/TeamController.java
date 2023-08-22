@@ -12,7 +12,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/teams")
-@CrossOrigin(origins = {"https://teammanager.vercel.app", "https://team-manager-frontend-108krbzlh-simonhong2022.vercel.app", "http://localhost:3000"})
+@CrossOrigin(origins = {"https://teammanager.up.railway.app", "http://localhost:3000"})
 public class TeamController {
 
     private final TeamService teamService;
